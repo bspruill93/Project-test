@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+<h2 align="center">Mapbox</h2>
+<h3 align="center">Subheader</h3>
+
+<div class="tab">
+  <button class="tablinks" onclick="openPage(event, 'Introduction')" id="defaultOpen">Introduction</button>
+  <button class="tablinks" onclick="openPage(event, 'Heat')">Heat Map</button>
+  <button class="tablinks" onclick="openPage(event, 'Income')">Median Income</button>
+  <button class="tablinks" onclick="openPage(event, 'Population')">Population</button>
+</div>
+
+<div id="Introduction" class="tabcontent">
+  <h3>Introduction</h3>
+  <p>Introduction of team and project</p>
+</div>
+
+<div id="Heat" class="tabcontent">
+  <h3>Heat</h3>
+  <p>Heat wave map</p> 
+  <a class="extLink" href="./indexweather.html">heatmap</a>
+
+</div>
+
+<div id="Income" class="tabcontent">
+  <h3>Income</h3>
+  <p>Median Income</p>
+</div>
+
+<div id="Population" class="tabcontent">
+        <h3>Population</h3>
+        <p>Population</p>
+      </div>
+
+<script type="text/javascript" src="./data.js"></script>
+   
+</body>
+</html> 
